@@ -23,5 +23,5 @@ def timeConverter(waktu):
         detik=menit_detik%60
         print(f"Konversi : {jam:02d}:{menit:02d}:{detik:02d}")
 
-waktu=input("Masukkan detik:  ")
+waktu=int(input("Masukkan detik:  "))
 timeConverter(waktu)
